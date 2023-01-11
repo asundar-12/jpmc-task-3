@@ -21,6 +21,7 @@ export class DataManipulator {
 
     const ratio = priceABC/priceDEF;
 
+    //these bounds help traders visualize when the ratio is going far off from its historical average
     const upperBound = 1 + 0.07;
     const lowerBound = 1 - 0.07;
 
